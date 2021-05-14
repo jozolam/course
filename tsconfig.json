@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "allowJs": true,
+        "checkJs": true,
+        "skipLibCheck": true,
+        "lib": [
+            "es2020",
+            "es2020.promise"
+        ],
+        "target": "es2020",
+        "module": "CommonJS",
+        "alwaysStrict": true,
+        "strict": true,
+        "noImplicitAny": false,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "strictNullChecks": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "resolveJsonModule": true,
+        "strictFunctionTypes": true,
+        "strictBindCallApply": true,
+        "noEmitHelpers": true,
+        "importHelpers": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true
+    },
+    "include": [
+        "./src/**/*",
+    ],
+    "exclude": [
+        "./node_modules/**/*",
+    ],
+    "ts-node": {
+        "transpileOnly": true
+    }
+}
